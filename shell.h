@@ -10,4 +10,4 @@
 
 extern char **environ;
 
-#endif / SHELL_H * /
+#endif /* _SHELL_H */

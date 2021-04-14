@@ -2,45 +2,46 @@
 
 ## Synopsis
 
-* In this project we want to emulate the Shell command interpreter, which allows the user to communicate with the kernel through instructions, which in turn allows them to be executed, on the other hand it allows access to tools that allow controlling the operation of the computer.
+- In this project we want to emulate the Shell command interpreter, which allows the user to communicate with the kernel through instructions, which in turn allows them to be executed, on the other hand it allows access to tools that allow controlling the operation of the computer.
 
 ## Table of contents
 
-> * [Title / Repository Name](#title--repository-name)
->   * [About / Synopsis](#about--synopsis)
->   * [Table of contents](#table-of-contents)
->   * [Usage](#usage)
->     * [Screenshots](#screenshots)
->     * [Content](#content)
->     * [Requirements](#requirements)
->   * [Flowchart](#Flowchart)
->   * [Authors](#Authors)
-
-
+> - [Title / Repository Name](#title--repository-name)
+>   - [About / Synopsis](#about--synopsis)
+>   - [Table of contents](#table-of-contents)
+>   - [Usage](#usage)
+>     - [Screenshots](#screenshots)
+>     - [Content](#content)
+>     - [Requirements](#requirements)
+>   - [Flowchart](#Flowchart)
+>   - [Authors](#Authors)
 
 ## Usage
 
 ### Screenshots
+
 ```
 aca va el ejemplo como quieran en imagen o en un formato que enmarque como este.
 ```
+
 ### Content
 
->   * shell.h
+> - shell.h
 >
->header file that contains the structure and prototypes of the project
->   * shell.c
+> header file that contains the structure and prototypes of the project
 >
->header file that contains the structure and prototypes of the project
->   * funtions.c
+> - shell.c
 >
->header file that contains the structure and prototypes of the project
-
+> header file that contains the structure and prototypes of the project
+>
+> - funtions.c
+>
+> header file that contains the structure and prototypes of the project
 
 ### Requirements
 
-* Gcc, version >= 4.8.4
-* Linux
+- Gcc, version >= 4.8.4
+- Linux
 
 ## Flowchart
 
@@ -49,4 +50,4 @@ aca va el ejemplo como quieran en imagen o en un formato que enmarque como este.
 ## Authors
 
     Luz Adriana Baza    2459@holbertonschool.com
-	Carlos Alexander Rodriguez <2618@holbertonschool.com>
+    Carlos Alexander Rodriguez <2618@holbertonschool.com>

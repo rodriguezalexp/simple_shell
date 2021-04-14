@@ -31,22 +31,25 @@ aca va el ejemplo como quieran en imagen o en un formato que enmarque como este.
 >header file that contains the structure and prototypes of the project
 >   * shell.c
 >
->header file that contains the structure and prototypes of the project
+>main
 >   * funtions.c
 >
->header file that contains the structure and prototypes of the project
+>shell funtions
+>
+>   * PAHT.c
+>
+>the paths in which the shell should look for the programs to run.
 
 
 ### Requirements
-
-* Gcc, version >= 4.8.4
-* Linux
+* simple_shell is designed to run in the Ubuntu 14.04 LTS linux environment and to be compiled using the GNU compiler collection v. gcc 4.8.4 with flags-Wall, -Werror, -Wextra, and -pedantic
 
 ## Flowchart
 
 ![Image text]()
 
+
 ## Authors
 
-    Luz Adriana Baza    2459@holbertonschool.com
+    Luz Adriana Baza <2459@holbertonschool.com>
 	Carlos Alexander Rodriguez <2618@holbertonschool.com>

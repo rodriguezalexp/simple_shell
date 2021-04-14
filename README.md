@@ -1,6 +1,52 @@
-<<<<<<< HEAD
- Simple Shell
-Description
-simple_shell is a command line interpreter, or shell, in the tradition of the first Unix shell written by Ken Thompson in 1971. This shell is intentionally minimalistic, yet includes the basic functionality of a traditional Unix-like command line user interface. Standard functions and system calls employed in simple_shell include: access, execve, exit, fork, free, fstat, getline, malloc, perror, signal, stat, wait, write.
+# simple_shell
+
+## Synopsis
+
+* In this project we want to emulate the Shell command interpreter, which allows the user to communicate with the kernel through instructions, which in turn allows them to be executed, on the other hand it allows access to tools that allow controlling the operation of the computer.
+
+## Table of contents
+
+> * [Title / Repository Name](#title--repository-name)
+>   * [About / Synopsis](#about--synopsis)
+>   * [Table of contents](#table-of-contents)
+>   * [Usage](#usage)
+>     * [Screenshots](#screenshots)
+>     * [Content](#content)
+>     * [Requirements](#requirements)
+>   * [Flowchart](#Flowchart)
+>   * [Authors](#Authors)
 
 
+
+## Usage
+
+### Screenshots
+```
+aca va el ejemplo como quieran en imagen o en un formato que enmarque como este.
+```
+### Content
+
+>   * shell.h
+>
+>header file that contains the structure and prototypes of the project
+>   * shell.c
+>
+>header file that contains the structure and prototypes of the project
+>   * funtions.c
+>
+>header file that contains the structure and prototypes of the project
+
+
+### Requirements
+
+* Gcc, version >= 4.8.4
+* Linux
+
+## Flowchart
+
+![Image text]()
+
+## Authors
+
+    Luz Adriana Baza    2459@holbertonschool.com
+	Carlos Alexander Rodriguez <2618@holbertonschool.com>

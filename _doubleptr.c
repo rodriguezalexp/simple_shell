@@ -1,12 +1,13 @@
 #include "shell.h"
 /**
- * _strlen - returns the length of a string
- * @s: string to find length of
- *
- * Return: length of s
+ * double_ptr - array of ponters
+ * @buff: buffer
+ * @delim: delimiter
+ * @count_ws: counter words
+ * Return: buff_two
  */
 
-char **double_ptr(int count_wds, char *buff, char *delim)
+char **double_ptr(int count_ws, char *buff, char *delim)
 {
 	char **buff_two = NULL, *p = NULL;
 	int i = 0, len = 0;
@@ -27,9 +28,15 @@ char **double_ptr(int count_wds, char *buff, char *delim)
 	return (buff_two);
 }
 
-void *_calloc(unsigned int nmemb, unsigned int size)
+/**
+ * _calloc - returns the length of a string
+ * @nmemb: blablalval
+ * @size: size of malloc
+ * Return: Always 0
+ */
+void *_calloc(unsigned int nmemb, size_t size)
 {
-	unsigned int i;
+	size_t i;
 	char *mem_arr;
 
 	if (nmemb == 0 || size == 0)

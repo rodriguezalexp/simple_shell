@@ -16,12 +16,11 @@ int _strlen(char *s)
 }
 
 /**
- * _strtoken - tokenizer words
- * @token: string to find length of
- *
- * Return: length of s
+ * _strok - tokenizer words
+ * @tok: pointer
+ * Return: Always 0
  */
-void _strtoken(char *tok)
+void _strok(char *tok)
 {
 	char **tokens = NULL;
 	int i = 0;
@@ -39,15 +38,16 @@ void _strtoken(char *tok)
 }
 
 /**
- * _strlen - returns the length of a string
- * @s: string to find length of
+ * _countws - count words of a string
+ * @str: string to store the words
  *
- * Return: length of s
+ * Return: counter
  */
 size_t _countws(char *str)
 {
 	int state = 0;
 	size_t counter = 0;
+
 	while (*str != '\0')
 	{
 		if (*str == 32 || *str == 10 || *str == 9)

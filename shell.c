@@ -1,16 +1,14 @@
 #include <shell.h>
 
 /**
- * _strlen - returns the length of a string
- * @s: string to find length of
+ * main - shell main
  *
- * Return: length of s
+ * Return: Always 0
  */
 
 int main(void)
-
 {
-	ssize_t datos = 0;
+	size_t datos = 0;
 	char *buffer = NULL;
 	size_t bufsize = 0;
 
@@ -19,7 +17,7 @@ int main(void)
 		write(1, "$ ", 2);
 		datos = getline(&buffer, &bufsize, stdin);
 		buffer[datos - 1] = '\0';
-		tokenizer(buffer);
+		_strtoken(buffer);
 	}
 	free(buffer);
 	exit(EXIT_SUCCESS);

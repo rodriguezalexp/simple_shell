@@ -52,4 +52,5 @@
 ## Authors
 
 Luz Adriana Baza <2459@holbertonschool.com>
+
 Carlos Alexander Rodriguez <2618@holbertonschool.com>

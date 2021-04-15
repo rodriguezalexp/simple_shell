@@ -1,3 +1,4 @@
+![ejemplo](https://user-images.githubusercontent.com/71143825/114935950-6a451400-9e01-11eb-9ec9-001e231c775e.png)
 # simple_shell
 
 ## Synopsis
@@ -21,9 +22,9 @@
 ## Usage
 
 ### Screenshots
-```
-![Image text](https://cdn.discordapp.com/attachments/829186622854922245/832352668970123264/unknown.png)
-```
+![Image text](https://user-images.githubusercontent.com/71143825/114936017-81840180-9e01-11eb-8989-51f6ed4ebde4.png)
+
+
 ### Content
 
 >   * shell.h

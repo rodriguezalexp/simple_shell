@@ -11,13 +11,13 @@
 #include <limits.h>
 #include <signal.h>
 
-extern char **environ;
-
 int main(void);
 int _strlen(char *s);
 void _strtoken(char *tok);
 size_t _countws(char *str);
-char _environ(char *env);
+char _environ(char *environ);
 int _receved(char **receved);
+char **make_env(char **env);
+void free_env(char **env);
 
 #endif /* _SHELL_H */

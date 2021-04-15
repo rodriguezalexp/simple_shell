@@ -11,11 +11,10 @@ int _receved(char **receved)
 	pid = fork();
 	if (pid == 0)
 	{
-		if ((execve(receved[0], receved, environ) == -1))
+		if ((execve(receved[0], receved, NULL) == -1))
 		{
 			perror("Error");
 			return (0);
 		}
 	}
-	return (0);
 }

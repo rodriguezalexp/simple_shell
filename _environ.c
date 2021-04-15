@@ -1,28 +1,41 @@
 #include "shell.h"
 
 /**
- * _environ - returns the length of a string
- * @env: environ variable
- * Return: Always 0
+ * make_env - make the shell environment from the environment passed to main
+ * @env: environment passed to main
+ *
+ * Return: pointer to the new environment
  */
-
-char _environ(char *env)
+char **make_env(char **env)
 {
-	int i = 0;
-	char *aux = NULL;
-	char *token = NULL;
+	char **newenv = NULL;
+	size_t i;
 
-	while (*(environ + i))
+	for (i = 0; env[i] != NULL; i++)
+		;
+	newenv = malloc(sizeof(char *) * (i + 1));
+	if (newenv == NULL)
 	{
-		if (!strncmp(environ[i], "PATH=", 5))
-		{
-			aux = environ[i] + 5;
-		}
-		i++;
+		perror("Fatal Error");
+		exit(1);
 	}
-	token = strtok(aux, ":");
-	while (token != NULL)
-	{
-		token = strtok(NULL, ":");
-	}
+	for (i = 0; env[i] != NULL; i++)
+		newenv[i] = _strdup(env[i]);
+	newenv[i] = NULL;
+	return (newenv);
+}
+
+/**
+ * free_env - free the shell's environment
+ * @env: shell's environment
+ *
+ * Return: void
+ */
+void free_env(char **env)
+{
+	unsigned int i;
+
+	for (i = 0; env[i] != NULL; i++)
+		free(env[i]);
+	free(env);
 }

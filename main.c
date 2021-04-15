@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	size_t datos = 0;
+	ssize_t datos = 0;
 	char *buffer = NULL;
 	size_t bufsize = 0;
 

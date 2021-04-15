@@ -7,6 +7,7 @@
 #include <unistd.h> /*write library */
 #include <stdlib.h>
 #include <string.h>
+#include <sys/types.h>
 
 extern char **environ;
 

@@ -20,13 +20,13 @@ int _strlen(char *s)
  * @tok: pointer
  * Return: Always 0
  */
-void _strok(char *tok)
+void _strtoken(char *tok)
 {
 	char **tokens = NULL;
 	int i = 0;
 	char *aux = NULL;
 
-	tokens = malloc((counter_words(tok) + 1) * sizeof(char *));
+	tokens = malloc((_countws(tok) + 1) * sizeof(char *));
 	while (*(tokens + i))
 	{
 		aux = strtok(tok, " ");
@@ -34,6 +34,7 @@ void _strok(char *tok)
 		i++;
 	}
 	tokens[i] = '\0';
+	_receved(tokens);
 	free(tokens);
 }
 

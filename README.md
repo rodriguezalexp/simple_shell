@@ -2,73 +2,54 @@
 
 ## Synopsis
 
-- In this project we want to emulate the Shell command interpreter, which allows the user to communicate with the kernel through instructions, which in turn allows them to be executed, on the other hand it allows access to tools that allow controlling the operation of the computer.
+* In this project we want to emulate the Shell command interpreter, which allows the user to communicate with the kernel through instructions, which in turn allows them to be executed, on the other hand it allows access to tools that allow controlling the operation of the computer.
 
 ## Table of contents
 
-> - [Title / Repository Name](#title--repository-name)
->   - [About / Synopsis](#about--synopsis)
->   - [Table of contents](#table-of-contents)
->   - [Usage](#usage)
->     - [Screenshots](#screenshots)
->     - [Content](#content)
->     - [Requirements](#requirements)
->   - [Flowchart](#Flowchart)
->   - [Authors](#Authors)
+> * [Title / Repository Name](#title--repository-name)
+>   * [About / Synopsis](#about--synopsis)
+>   * [Table of contents](#table-of-contents)
+>   * [Usage](#usage)
+>     * [Screenshots](#screenshots)
+>     * [Content](#content)
+>     * [Requirements](#requirements)
+>   * [Flowchart](#Flowchart)
+>   * [Authors](#Authors)
+
+
 
 ## Usage
 
 ### Screenshots
-
-```
-aca va el ejemplo como quieran en imagen o en un formato que enmarque como este.
 ```
 
+```
 ### Content
 
-> - shell.h
+>   * shell.h
 >
-> header file that contains the structure and prototypes of the project
+>header file that contains the structure and prototypes of the project
+>   * shell.c
 >
-<<<<<<< HEAD
 >main
 >   * funtions.c
 >
->shell funtions
+>shell function
 >
->   * PAHT.c
+> * PAHT.c
 >
->the paths in which the shell should look for the programs to run.
+> the paths in which the shell should look for the programs to run.
 
 
 ### Requirements
-* simple_shell is designed to run in the Ubuntu 14.04 LTS linux environment and to be compiled using the GNU compiler collection v. gcc 4.8.4 with flags-Wall, -Werror, -Wextra, and -pedantic
-=======
-> - shell.c
->
-> header file that contains the structure and prototypes of the project
->
-> - funtions.c
->
-> header file that contains the structure and prototypes of the project
 
-### Requirements
-
-- Gcc, version >= 4.8.4
-- Linux
->>>>>>> bfba288b36a9406daaa7eeff25046ebf6aee17b1
+* simple_shell is designed to run in the Ubuntu 14.04 LTS linux environment and to be compiled using the GNU compiler collection v. gcc 4.8.4 with flags-Wall, -Werror, -Wextra, and -pedantic.
 
 ## Flowchart
 
-![Image tex![readme](https://user-images.githubusercontent.com/71143825/114811174-41763d80-9d73-11eb-972c-ee257f5010dc.PNG)
-
+![Image text](https://user-images.githubusercontent.com/71143825/114811174-41763d80-9d73-11eb-972c-ee257f5010dc.PNG)
 
 ## Authors
 
-<<<<<<< HEAD
-    Luz Adriana Baza <2459@holbertonschool.com>
-	Carlos Alexander Rodriguez <2618@holbertonschool.com>
-=======
-    Luz Adriana Baza    2459@holbertonschool.com
-    Carlos Alexander Rodriguez <2618@holbertonschool.com>
->>>>>>> bfba288b36a9406daaa7eeff25046ebf6aee17b1
+Luz Adriana Baza <2459@holbertonschool.com>
+Carlos Alexander Rodriguez <2618@holbertonschool.com>

@@ -16,7 +16,7 @@ int _strlen(char *s)
 }
 
 /**
- * _strok - tokenizer words
+ * _strtoken - tokenizer words
  * @tok: pointer
  * Return: Always 0
  */

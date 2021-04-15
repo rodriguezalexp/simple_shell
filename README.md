@@ -45,6 +45,14 @@
 
 * simple_shell is designed to run in the Ubuntu 14.04 LTS linux environment and to be compiled using the GNU compiler collection v. gcc 4.8.4 with flags-Wall, -Werror, -Wextra, and -pedantic.
 
+### Installacion
+
+* Clone this repository: git clone https://github.com/rodriguezalexp/simple_shell.git
+* Change directories into the repository: cd simple_shell
+* Compile: gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+* Run the shell in interactive mode: ./hsh
+* Or run the shell in non-interactive mode: example echo "pwd" | ./hsh
+
 ## Flowchar
 
 ![Image text](https://user-images.githubusercontent.com/71143825/114813344-8dc37c80-9d77-11eb-97bf-aad309dcedbd.jpg)

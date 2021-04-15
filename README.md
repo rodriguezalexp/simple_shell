@@ -47,7 +47,8 @@
 
 ## Flowchart
 
-![Image text](https://user-images.githubusercontent.com/71143825/114811174-41763d80-9d73-11eb-972c-ee257f5010dc.PNG)
+![Image text](https://user-images.githubusercontent.com/71143825/114813344-8dc37c80-9d77-11eb-97bf-aad309dcedbd.jpg)
+
 
 ## Authors
 

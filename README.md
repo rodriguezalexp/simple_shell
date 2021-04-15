@@ -46,7 +46,6 @@ aca va el ejemplo como quieran en imagen o en un formato que enmarque como este.
 ## Flowchart
 
 ![Image tex![readme](https://user-images.githubusercontent.com/71143825/114811174-41763d80-9d73-11eb-972c-ee257f5010dc.PNG)
-t]()
 
 ## Authors
 

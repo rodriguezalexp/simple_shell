@@ -61,7 +61,6 @@ char *find_path(char **env)
 			break;
 	}
 	return (env[i]);
-
 }
 
 /**
@@ -154,7 +153,7 @@ int execute_cwd(vars_t *vars)
 			print_error(vars, ": Permission denied\n");
 			vars->status = 126;
 		}
-			return (0);
+		return (0);
 	}
 	print_error(vars, ": not found\n");
 	vars->status = 127;

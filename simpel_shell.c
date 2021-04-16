@@ -11,7 +11,7 @@ unsigned int sig_flag;
  */
 static void sig_handler(int uuv)
 {
-	(void) uuv;
+	(void)uuv;
 	if (sig_flag == 0)
 		_puts("\n$ ");
 	else
@@ -51,7 +51,7 @@ int main(int argc __attribute__((unused)), char **argv, char **environment)
 			if (vars.av && vars.av[0])
 				if (check_for_builtins(&vars) == NULL)
 					check_for_path(&vars);
-		free(vars.av);
+			free(vars.av);
 		}
 		free(vars.buffer);
 		free(vars.commands);

@@ -1,3 +1,4 @@
+
 # simple_shell
 
 ## Synopsis
@@ -21,9 +22,9 @@
 ## Usage
 
 ### Screenshots
-```
+![Image text](https://user-images.githubusercontent.com/71143825/114936017-81840180-9e01-11eb-8989-51f6ed4ebde4.png)
 
-```
+
 ### Content
 
 >   * shell.h
